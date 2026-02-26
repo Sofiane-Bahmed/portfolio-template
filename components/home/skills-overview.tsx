@@ -12,7 +12,7 @@ export const SkillsOverviewSection = () => {
   const { sectionTitle, sectionDescription } = DATA.home.skills;
 
   return (
-    <section className="py-20 bg-content1">
+    <section className="py-20 bg-gradient-to-b from-background to-content2">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
